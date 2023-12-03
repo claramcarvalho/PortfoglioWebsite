@@ -51,4 +51,8 @@
     table th, table td {
         padding: 15px;
     }
+
+    table img {
+        padding: 10px;
+    }
   /* Define styles for other sections, footer, etc. */
