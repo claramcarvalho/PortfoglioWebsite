@@ -1,83 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clara's Portfoglio</title>
-    <link rel="stylesheet" href="styles.css">
+
+     <title>Clara's Website</title>
+
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="Tooplate">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="css/owl.carousel.min.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/tooplate-ben-resume-style.css">
+<!--
+Tooplate 2120 Ben Resume
+https://www.tooplate.com/view/2120-ben-resume
+-->
 </head>
-<body>
-    <header>
-        <h1>Clara Magalhaes</h1>
-        <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>My name is Clara and I am a programmer with experience with Architecture and Urban Planning in the public sector.</p>
-            <p>My true passion, though, is programming and techology. That's why I decided to go back to the classroom to study.</p>
-        </section>
-        <hr style="width:50%;text-align:center;">
-        <section id="projects">
-            <h2>Projects</h2>
-            <p>Here you can find some of my personal projects.</p>
-            <div class="div_projects">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>
-                                Project
-                            </th>
-                            <th>
-                                Details
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <img src="images\dogsage2.png" alt="Dogs Age welcome screen" height="200px">
-                                <img src="images\dogsage1.png" alt="Dogs Age result screen" height="200px">
-                            </td>
-                            <td>
-                                <h3>Dogs Age</h3>
-                                <p>Simple iOS Mobile Application using Swift and Xcode</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img src="images\todolist1.png" alt="To Do List Welcome screen" height="200px">
-                                <img src="images\todolist2.png" alt="To Do List completing task from welcome screen" height="200px">
-                                <img src="images\todolist3.png" alt="To Do List viewing only completed tasks in the welcome screen" height="200px">
-                                <img src="images\todolist4.png" alt="Editing a task" height="200px">
-                                <img src="images\todolist5.png" alt="Seeing edited task in the welcome screen" height="200px">
+<body data-spy="scroll" data-target="#navbarNav" data-offset="50">
 
-                            </td>
-                            <td>
-                                <h3>To Do List</h3>
-                                <p>Simple iOS Mobile Application using Swift and Xcode</p>
-                                <p>Used TableViewSimpleCell.</p>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+    <!-- MENU BAR -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                Clara Magalhães
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#intro" class="nav-link smoothScroll">Introduction</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link smoothScroll">About Me</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a href="#skills" class="nav-link smoothScroll">Skills</a>
+                  </li>
+
+                    <li class="nav-item">
+                        <a href="#testimonials" class="nav-link smoothScroll">Projects</a>
+                    </li>
+
+                    
+
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link smoothScroll">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="mt-lg-0 mt-3 mb-4 mb-lg-0">
+                    <a href="ResumeEN.pdf" class="custom-btn btn" download>Download CV</a>
+                </div>
             </div>
-        </section>
-        <hr style="width:50%;text-align:center;">
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Find me on <a href="https://www.linkedin.com/in/claramcarvalho/">LinkedIn</a></p>
-        </section>
-    </main>
 
-    <footer>
-    </footer>
+        </div>
+    </nav>
+
+
+    <!-- HERO -->
+    <section class="hero d-flex flex-column justify-content-center align-items-center" id="intro">
+
+         <div class="container">
+            <div class="row">
+
+                  <div class="mx-auto col-lg-5 col-md-5 col-10">
+                      <img src="images/clara.png" class="img-fluid" alt="Ben Resume HTML Template">
+                  </div>
+
+                   <div class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
+                        <div class="hero-text">
+
+                            <h1 class="hero-title">👋 Bonjour / Hi! My name is Clara</h1>
+
+                            <a href="mailto:claramcarvalho@gmail.com" class="email-link">
+                                claramcarvalho@gmail.com
+                            </a>
+                          
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-12">
+                    <h3 class="mb-4">Let me introduce myself...</h3>
+
+                    <p>My name is Clara, and welcome to my digital space! I'm a dedicated and passionate developer who loves solving practical problems and bringing digital solutions to processes, projects and people.</p>
+                    <p>My career began in a very different way, however. I graduated in Architecture and Urbanism from the Federal University of Minas Gerais (UFMG), one of Brazil's most renowned universities. </p>
+                    <p>After working for a few years developing architectural projects, I began my career as a civil servant for Belo Horizonte City Hall. There, I discovered my passion and aptitude for finding digital solutions to everyday problems. I took courses and training and became an internal reference on the subject of databases and data analysis.</p>
+                    <p>I therefore decided to pursue my passion for programming and my digital aptitude, and make a career change towards systems and software development.</p>
+
+
+                    <ul class="mt-4 mb-5 mb-lg-0 profile-list list-unstyled">
+                        <li><strong>Full Name :</strong> Clara de Magalhães Carvalho </li>
+
+                        <li><strong>Date of Birth:</strong> 01 December 1982</li>
+
+                        <li><strong>Email :</strong> claramcarvalho@gmail.com</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-5 mx-auto col-md-6 col-12">
+                    <img src="images/back.png" class="about-image img-fluid" alt="Ben's Resume HTML Template">
+                </div>
+
+            </div>
+            <div class="row about-third">
+            	<div class="col-lg-4 col-md-4 col-12">
+                <h3>Digital Solutions</h3>
+                <p>I have a natural aptitude for turning problems into digital solutions. One of my greatest skills is the ability to act as a bridge between the average user and the challenging world of technology.  I combine analytical thinking with a passion for staying at the forefront of technological advancements to meet diverse needs.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                <h3>Problem Solving</h3>
+                <p>Navigating challenges and finding innovative solutions is not just a skill for me; it's a mindset. I possess a natural talent for problem-solving, turning challenges into opportunities. Whether it's technical issues or creative puzzles, I approach problems with a mix of analytical thinking and creativity.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                <h3>Natural Leader</h3>
+                <p>Being a leader is natural to me! I thrive in guiding and inspiring others towards common goals. With a mix of empathy and decisiveness, I create a cozy environment where everyone's strengths shine. My leadership style is rooted in fostering growth, teamwork, and achieving success collectively.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS-->
+    <section class="skills section-padding" id="skills">
+        <div class="container">
+            <h3 class="mb-5 text-center">Skills</h3>
+            <div class="my_skills_categories">
+                <form>
+                    <fieldset>
+                        <legend>Programming Languages</legend>
+                        <div class="my_skills_items">
+                            <p>C#</p>
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Javascript</p>
+                            <p>PHP</p>
+                            <p>Java</p>
+                            <p>PL/SQL</p>
+                            <p>Python</p>
+                            <p>Swift</p>
+                            <p>Golang</p>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Frameworks</legend>
+                        <div class="my_skills_items">
+                            <p>.NET</p>
+                            <p>ASP.NET</p>
+                            <p>Git</p>
+                            <p>Django</p>
+                            <p>React</p>
+                            <p>Oracle</p>
+                            <p>PostgreSQL / PostGIS</p>
+                            <p>Firebase</p>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Suites and Softwares</legend>
+                        <div class="my_skills_items">
+                            <p>Microsoft Office Suite</p>
+                            <p>Figma</p>
+                            <p>AutoCAD</p>
+                            <p>ArcGIS</p>
+                            <p>QGIS</p>
+                            <p>GeoKettle (ETL)</p>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Languages</legend>
+                        <div class="my_skills_items">
+                            <p>English</p>
+                            <p>French</p>
+                            <p>Portuguese</p>
+                            <p>Italian</p>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Soft Skills</legend>
+                        <div class="my_skills_items">
+                            <p>Problem-Solving</p>
+                            <p>Adaptable</p>
+                            <p>Natural Leader</p>
+                            <p>Dedicated Team-Worker</p>
+                            <p>Critical Thinking</p>
+                            <p>Research</p>
+                            <p>Curious</p>
+                            <p>Learn From Others</p>
+                            <p>Highly Empathic</p>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TESTIMONIAL -->
+     <section class="testimonials section-padding" id="testimonials">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-12">
+                        <h3 class="mb-5 text-center">Some of my Projects</h3>
+
+                        <div class="owl-carousel owl-theme" id="testimonials-carousel">
+
+                            <div class="item">
+                              <div class="testimonials-thumb d-flex">
+                                  <div class="testimonials-image">
+                                      <img src="images/testimonials/villago.png" class="img-fluid" alt="testimonials image">
+                                  </div>
+
+                                  <div class="testimonials-info">
+                                    <h6 class="mb-0">Villagô - Virtual Service Finder</h6>
+                                    <span>PHP, HTML, CSS, Javascript, Google Maps API</span>
+                                    <p>This website was developed for the Web Server Development I course, Fall 2023, at College Lasalle.</p>
+                                    <a href="https://github.com/claramcarvalho/villago">Visit the Github Repository</a>
+                                  </div>
+                              </div>
+                            </div>
+
+                            <div class="item">
+                              <div class="testimonials-thumb d-flex">
+                                  <div class="testimonials-image">
+                                      <img src="images/testimonials/gyoza_home.jpg" class="img-fluid" alt="testimonials image">
+                                  </div>
+
+                                  <div class="testimonials-info">
+                                    <h6 class="mb-0">Gyoza Restaurant Menu</h6>
+                                    <span>HTML, CSS, Javascript</span>
+                                    <p>This website was developed for the Web Client Development course, Winter 2023, at College Lasalle.</p>
+                                    <a href="https://claramcarvalho.github.io/Lasalle_ITProgrammer_WebDev_FinalProject/public/index.html">Visit the Website</a>
+                                  </div>
+                              </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/testimonials/conjugame.jpg" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <h6 class="mb-0">Conjugame</h6>
+                                        <span>Swift, iOS Development</span>
+                                        <p>This app was developed for the iOS Mobile Development course, Fall 2023, at College Lasalle.</p>
+                                        <a href="https://github.com/claramcarvalho/Conjugame">Visit the Github Repository</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                              <div class="testimonials-thumb d-flex">
+                                  <div class="testimonials-image">
+                                      <img src="images/testimonials/csharp1.jpg" class="img-fluid" alt="testimonials image">
+                                  </div>
+
+                                  <div class="testimonials-info">
+                                      <h6 class="mb-0">Mini Apps</h6>
+                                      <span>C#, OOP, Win Forms</span>
+                                      <p>This app was developed for the Object Oriented Programming course, Winter 2023, at College Lasalle.</p>
+                                      <a href="https://github.com/claramcarvalho/Lasalle_ITProgrammer_OOP_FinalProject">Visit the Github Repository</a>
+                                  </div>
+                              </div>
+                          </div>
+
+                        </div>
+
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+     <section class="contact section-padding pt-0" id="contact">
+      <div class="container">
+        <div class="row">
+            <div class="mx-auto col-lg-4 col-md-6 col-12">
+                <h3 class="my-4 pt-4 pt-lg-0">Say hello 😊 !</h3>
+                <p>
+                    <a href="mailto:claramcarvalho@gmail.com">
+                        claramcarvalho@gmail.com
+                    <i class="fas fa-arrow-right custom-icon"></i>
+                    </a>
+                </p>
+
+                <ul class="social-links mt-2">
+                    <li><a href="https://www.facebook.com/claramcarvalho/" rel="noopener" class="fab fa-facebook"></a></li>
+                    <li><a href="https://www.instagram.com/claramcarvalho/" rel="noopener" class="fab fa-instagram"></a></li>
+                    <li><a href="https://www.linkedin.com/in/claramcarvalho/" rel="noopener" class="fab fa-linkedin"></a></li>
+                    <li><a href="https://github.com/claramcarvalho" rel="noopener" class="fab fa-github"></a></li>
+                </ul>
+                
+              <p class="copyright-text mt-5 pt-3">Copyright &copy; 2020 Clara Portfolio</p>
+            </div>
+
+        </div>
+      </div>
+    </section>
+     <!-- SCRIPTS -->
+     <script src="js/jquery.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script src="js/custom.js"></script>
+
 </body>
 </html>
